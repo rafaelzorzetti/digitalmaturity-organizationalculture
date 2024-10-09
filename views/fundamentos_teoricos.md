@@ -10,10 +10,14 @@ A **cultura organizacional** é a **identidade** da empresa, influenciando profu
 
 3. **Pressupostos Básicos**: São as crenças mais profundas da cultura, geralmente inconscientes, que guiam as percepções e ações cotidianas dos membros. Esses pressupostos são a base da cultura organizacional e dificilmente são questionados. Por exemplo, no Google, há um pressuposto básico de que os funcionários devem ter liberdade para experimentar novas ideias, o que molda a cultura de inovação e confiança na empresa.
 
+![Imagem carregada](https://raw.githubusercontent.com/rafaelzorzetti/digitalmaturity-organizationalculture/main/views/modeloculturaorganizacional.jpg)
+
 A cultura organizacional é um ativo poderoso, moldando o comportamento coletivo e impulsionando a organização rumo ao sucesso sustentável. Dessa forma, cultivar uma cultura sólida e alinhada aos objetivos estratégicos é essencial para garantir não apenas a sobrevivência, mas a prosperidade a longo prazo.
 
 
 ### Transformação Digital
+
+
 
 
 
