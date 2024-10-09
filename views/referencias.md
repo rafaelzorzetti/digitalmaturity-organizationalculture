@@ -1,0 +1,2 @@
+- Acatech. (2017). *Industrie 4.0 Maturity Index: Managing the Digital Transformation of Companies*. Herbert Utz Verlag. Disponível em: [https://www.acatech.de](https://www.acatech.de)
+- Schein, E. H. (2010). *Organizational Culture and Leadership* (4ª ed.). John Wiley & Sons.
