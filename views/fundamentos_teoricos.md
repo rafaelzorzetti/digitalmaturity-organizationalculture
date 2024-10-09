@@ -14,5 +14,7 @@ A **cultura organizacional** é a **identidade** da empresa, influenciando profu
 
 A cultura organizacional é um ativo poderoso, moldando o comportamento coletivo e impulsionando a organização rumo ao sucesso sustentável. Dessa forma, cultivar uma cultura sólida e alinhada aos objetivos estratégicos é essencial para garantir não apenas a sobrevivência, mas a prosperidade a longo prazo.
 
-
 ### Transformação Digital
+
+### Importância da Cultura para a Transformação Digital
+
