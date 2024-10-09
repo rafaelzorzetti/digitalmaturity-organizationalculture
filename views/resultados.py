@@ -69,15 +69,17 @@ def generate_feedback(responses):
     
     try:
         response = openai.chat.completions.create(
-            model="gpt-4o",
+            model= "gpt-4o",
             messages=[
                 {"role": "system", "content": "Você é um consultor de cultura organizacional e transformação digital."},
                 {"role": "user", "content": prompt}
             ]
         )
+
         # Extrair o conteúdo gerado pela OpenAI
-        feedback = response.choices[0].message["content"].strip()
+        feedback = response.choices[0].message.content.strip()
         return feedback
+    
     except Exception as e:
         return f"Erro ao gerar feedback: {str(e)}"
 
