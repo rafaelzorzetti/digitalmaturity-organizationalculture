@@ -32,10 +32,13 @@ A Indústria 4.0 estabelece os principais pilares tecnológicos que sustentam a 
 - **Inteligência Artificial (IA)**: A IA possibilita que sistemas aprendam e façam previsões baseadas em padrões dos dados, ajudando a automatizar processos complexos e a otimizar decisões.
 - **Digitalização**: É o processo de converter informações e processos físicos em formatos digitais, facilitando a automação, o acesso e a análise dos dados.
 
+![Imagem carregada](https://raw.githubusercontent.com/rafaelzorzetti/digitalmaturity-organizationalculture/main/views/transformacaodigital.jpg)
+
 A metodologia da Acatech destaca a importância da transformação digital ser uma "jornada" e avançar gradualmente pelos níveis de maturidade, pois cada etapa é essencial para aprendizado e adaptação. A transformação digital, portanto, é muito mais do que um processo técnico; é uma evolução cultural e organizacional que exige a colaboração entre diferentes áreas da empresa e uma visão clara de longo prazo.
 
-
 ### Importância da Cultura para a Transformação Digital
+
+
 
 
 
