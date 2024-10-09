@@ -15,3 +15,6 @@ A cultura organizacional é um ativo poderoso, moldando o comportamento coletivo
 
 ### Transformação Digital
 
+
+
+![Imagem carregada](https://raw.githubusercontent.com/rafaelzorzetti/digitalmaturity-organizationalculture/main/views/modeloculturaorganizacional.jpg)
