@@ -82,6 +82,10 @@ def main():
         - 821150801: Malcon Felipe Ribeiro
         - 821132677: Gustavo Nascimento Marianno Mendes
         """)
+        # Exibir a tela de login se não estiver logado
+        if not st.session_state['logged_in']:
+            login()
+            
         # Interrompe o restante do código, exibindo só a tela de participantes
         return
 
