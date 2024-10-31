@@ -19,16 +19,9 @@ USERS = {
 
 # Função de login
 def login():
-    
-    #Carrega a imagem do side bar
-    logo_path = os.path.join('usjt_logo.jpg')  # Caminho para o logo
-    st.sidebar.image(logo_path, use_column_width=True)
-    
     st.sidebar.title("Login")
     
-    # Entrada de nome de usuário
     username = st.sidebar.text_input("Usuário")
-    # Entrada de senha
     password = st.sidebar.text_input("Senha", type="password")
     
     if st.sidebar.button("Login"):
@@ -36,33 +29,47 @@ def login():
             st.session_state['logged_in'] = True
             st.session_state['username'] = username
             st.sidebar.success(f"Bem-vindo, {username}!")
-            # Recarrega a página imediatamente após o login bem-sucedido
             st.rerun()
         else:
             st.sidebar.error("Usuário ou senha incorretos")
 
 # Função de logout
 def logout():
-    st.session_state.clear()  # Limpar a sessão
-    st.rerun()   # Recarregar a aplicação sem ser dentro do callback
-
-# Função para limpar sessão (logout)
-def clear_session():
-    st.session_state.clear()
-    st.rerun()  # Forçar recarregamento após o logout
+    st.session_state.clear()  # Limpa todo o estado da sessão
+    st.session_state['logged_in'] = False  # Define como deslogado
+    st.session_state['first_run'] = True  # Define para exibir a tela de participantes na próxima vez
+    st.rerun()  # Força a recarga da aplicação
 
 # Função principal com autenticação
 def main():
-    
+    # Verificar se o usuário está logado
     if 'logged_in' not in st.session_state:
         st.session_state['logged_in'] = False
-        # Cabeçalho principal com o título e a lista de participantes, sempre visível
+    
+    # Controle para exibir a tela de participantes na inicialização
+    if 'first_run' not in st.session_state:
+        st.session_state['first_run'] = True
 
+    # Menu de navegação lateral
+    with st.sidebar:
+        logo_path = os.path.join('usjt_logo.jpg')
+        st.image(logo_path, use_column_width=True)
+
+        # Menu com as opções
+        selected = option_menu(
+            menu_title="Navegação",
+            options=["Participantes", "Introdução", "Fundamentos Teóricos", "Avaliação da Maturidade", "Questionário", "Resultados", "Conclusão", "Referências", "Sair"],
+            default_index=0
+        )
+
+    # Exibir a tela de participantes na inicialização ou após logout
+    if selected == "Participantes" or st.session_state.get('first_run', False):
+        st.session_state['first_run'] = False  # Garante que a tela de participantes só apareça uma vez
         st.markdown("## Projeto A3 da UC Aspectos Humanos e Socioculturais")
         st.markdown("## Índice de Maturidade da Cultura Organizacional para a Transformação Digital")
         st.markdown("""
         **Orientação:** Professora Sthael Ramos Silva 
-         
+        
         **RA/Matrícula e Nome Completo:**
         - 821119440: Alesi Moisés Ferreira Bueno
         - 821118671: Bruna Cristina dos Santos
@@ -75,37 +82,29 @@ def main():
         - 821150801: Malcon Felipe Ribeiro
         - 821132677: Gustavo Nascimento Marianno Mendes
         """)
+        # Interrompe o restante do código, exibindo só a tela de participantes
+        return
 
-    if st.session_state['logged_in']:
-        with st.sidebar:
-            
-            #Carrega a imagem do side bar
-            logo_path = os.path.join('usjt_logo.jpg')  # Caminho para o logo
-            st.image(logo_path, use_column_width=True)
+    # Navegação para as páginas de conteúdo
+    elif selected == "Introdução":
+        intro.page_intro()
+    elif selected == "Fundamentos Teóricos":
+        fundamentos_teoricos.page_fundamentos_teoricos()
+    elif selected == "Avaliação da Maturidade":
+        avaliacao_maturidade.page_avaliacao_maturidade()
+    elif selected == "Questionário":
+        questonario.page_questionnaire()
+    elif selected == "Resultados":
+        resultados.page_results()
+    elif selected == "Conclusão":
+        conclusao.page_conclusao()
+    elif selected == "Referências":
+        referencias.page_referencias()
+    elif selected == "Sair":
+        logout()  # Chama a função de logout, que limpa o estado e recarrega a aplicação
 
-            selected = option_menu(
-                menu_title="Navegação",
-                options=["Introdução", "Fundamentos Teóricos", "Avaliação da Maturidade", "Questionário", "Resultados", "Conclusão", "Referências", "Sair"]
-            )
-
-        # Navegação para as páginas
-        if selected == "Introdução":
-            intro.page_intro()
-        if selected == "Fundamentos Teóricos":
-            fundamentos_teoricos.page_fundamentos_teoricos()
-        if selected == "Avaliação da Maturidade":
-            avaliacao_maturidade.page_avaliacao_maturidade()
-        if selected == "Questionário":
-            questonario.page_questionnaire()
-        if selected == "Resultados":
-            resultados.page_results()
-        if selected == "Conclusão":
-            conclusao.page_conclusao()
-        if selected == "Referências":
-            referencias.page_referencias()
-        elif selected == "Sair":
-            logout()
-    else:
+    # Exibir a tela de login se não estiver logado
+    if not st.session_state['logged_in']:
         login()
 
 if __name__ == "__main__":

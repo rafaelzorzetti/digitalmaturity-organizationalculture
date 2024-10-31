@@ -54,30 +54,32 @@ def page_fundamentos_teoricos():
 
     # Exibir o conteúdo atual do markdown
     st.markdown(markdown_content)
-
-    # Exibir caixa de texto para o usuário editar o markdown
-    st.write("### Modificar o conteúdo abaixo:")
-    updated_content = st.text_area("Editar fundamentos teóricos", markdown_content, height=300)
-
-    # Upload de imagem
-    uploaded_image = st.file_uploader("Carregar uma imagem", type=["png", "jpg", "jpeg"])
     
-    # Se uma imagem for carregada, salvar no GitHub e gerar o caminho da imagem
-    if uploaded_image is not None:
-        image_name = uploaded_image.name
-        image_url = save_image_to_github(uploaded_image, image_name)
+    if st.session_state.get('logged_in'):
         
-        # Adicionar o caminho da imagem ao markdown
-        updated_content += f"\n\n![Imagem carregada]({image_url})"
-    
-    # Botão para salvar as alterações
-    if st.button("Salvar Alterações"):
-        # Salvar o conteúdo atualizado no markdown no GitHub
-        save_markdown_file_to_github(updated_content)
+        # Exibir caixa de texto para o usuário editar o markdown
+        st.write("### Modificar o conteúdo abaixo:")
+        updated_content = st.text_area("Editar fundamentos teóricos", markdown_content, height=300)
+
+        # Upload de imagem
+        uploaded_image = st.file_uploader("Carregar uma imagem", type=["png", "jpg", "jpeg"])
         
-        # Recarregar o conteúdo atualizado
-        st.success("Alterações salvas com sucesso!")
-        st.rerun()
+        # Se uma imagem for carregada, salvar no GitHub e gerar o caminho da imagem
+        if uploaded_image is not None:
+            image_name = uploaded_image.name
+            image_url = save_image_to_github(uploaded_image, image_name)
+            
+            # Adicionar o caminho da imagem ao markdown
+            updated_content += f"\n\n![Imagem carregada]({image_url})"
+        
+        # Botão para salvar as alterações
+        if st.button("Salvar Alterações"):
+            # Salvar o conteúdo atualizado no markdown no GitHub
+            save_markdown_file_to_github(updated_content)
+            
+            # Recarregar o conteúdo atualizado
+            st.success("Alterações salvas com sucesso!")
+            st.rerun()
 
 # Chamar a função na página principal
 if __name__ == "__main__":

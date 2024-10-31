@@ -30,19 +30,21 @@ def page_avaliacao_maturidade():
 
     # Exibir o conteúdo atual do markdown
     st.markdown(markdown_content)
-
-    # Exibir caixa de texto para o usuário editar o markdown
-    st.write("### Modificar o conteúdo abaixo:")
-    updated_content = st.text_area("Editar Avaliação da Maturidade", markdown_content, height=300)
-
-    # Botão para salvar as alterações
-    if st.button("Salvar Alterações"):
-        # Salvar o conteúdo atualizado no markdown no GitHub
-        save_markdown_file_to_github(updated_content)
+    
+    if st.session_state.get('logged_in'):
         
-        # Recarregar o conteúdo atualizado
-        st.success("Alterações salvas com sucesso!")
-        st.rerun()
+        # Exibir caixa de texto para o usuário editar o markdown
+        st.write("### Modificar o conteúdo abaixo:")
+        updated_content = st.text_area("Editar Avaliação da Maturidade", markdown_content, height=300)
+
+        # Botão para salvar as alterações
+        if st.button("Salvar Alterações"):
+            # Salvar o conteúdo atualizado no markdown no GitHub
+            save_markdown_file_to_github(updated_content)
+            
+            # Recarregar o conteúdo atualizado
+            st.success("Alterações salvas com sucesso!")
+            st.rerun()
 
 # Chamar a função na página principal
 if __name__ == "__main__":
