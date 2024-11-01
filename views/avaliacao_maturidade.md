@@ -1,6 +1,6 @@
 No modelo de maturidade da **Indústria 4.0** da Acatech, a **cultura organizacional** é um dos pilares fundamentais para o sucesso da **transformação digital**. Dessa forma, serão utilizados os seguintes princípios culturais abaixo para a elaboração das questões:
 
-#### Disposição para mudança 
+#### 🔄 Disposição para mudança 
 **Capacidade** dos colaboradores de instrumentação estarem em movimento buscando **melhoria contínua** e não aceitarem o estado atual como definitivo.
 
 #### 🔬 Incentivo à experimentação e interpretação dos erros
