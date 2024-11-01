@@ -36,4 +36,8 @@ A Indústria 4.0 estabelece os principais pilares tecnológicos que sustentam a 
 
 A Acatech destaca a importância da transformação digital ser uma "jornada" e avançar gradualmente pelos níveis de maturidade, pois cada etapa é essencial para aprendizado e adaptação. A transformação digital, portanto, é muito mais do que um processo técnico; é uma evolução cultural e organizacional que exige a colaboração entre diferentes áreas da empresa e uma visão clara de longo prazo.
 
-### Importância da Cultura para a Transformação Digital
+### A Importância da Cultura Organizacional na Transformação Digital
+
+A maturidade da cultura organizacional é fundamental para o sucesso da transformação digital. Focar apenas em investimentos em tecnologias e ferramentas não resultará em uma evolução orgânica; é necessária uma mudança na mentalidade das pessoas e na cultura das organizações. 
+
+ Antes de gastar esforço no planejamento estratégico, é importante uma atenção especial à cultura organizacional. *Peter Drucker* disse: "A cultura come a estratégia no café da manhã". Esse pensamento deixa claro a importância de uma cultura estar alinhada com o direcionamento estratégico da organização.
