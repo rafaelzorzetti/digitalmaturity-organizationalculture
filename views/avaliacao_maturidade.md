@@ -29,3 +29,17 @@ Capacidade da organização de superar rapidamente **falhas** e **crises**, prev
 
 #### 🔒 Segurança cibernética
 Todos entendem a sua importância e papel para a **segurança** das **informações** e **conhecimentos** da organização.
+
+Assim como no modelo de maturidade da Acatech, serão utilizados seis níveis de maturidade da cultura organizacional:
+
+1. **Resistência Inicial**: a organização demonstra resistência à mudança, processos tradicionais são mantidos e não há intenção de melhorias.
+
+2. **Adaptação Incipiente**: a organização começa a aceitar mudanças, mas de forma cautelosa e controlada, a organização possui a tendência de evitar incertezas e riscos e as pessoas preferem permanecer em suas zonas de conforto.
+
+3. **Colaboração Emergente**: há uma colaboração crescente entre os colaboradores e é formado um ambiente que apoia a adoção de novas ideias e tecnologias de forma ativa.
+
+4. **Experimentação e Aprendizado**: a organização incentiva a experimentação, erros e acertos faz parte do processo, a cultura foca em inovação contínua.
+
+5. **Transparência e Autonomia**: o foco está em garantir a transparência dos processos e dar autonomia às pessoas e times, é promovida uma cultura aberta e colaborativa e inovadora.
+
+6. **Inovação Orgânica**: a empresa atinge um estágio de inovação constante, a cultura digital está integrada em todos os processos e áreas da organização, a adaptação e inovação é natural.
