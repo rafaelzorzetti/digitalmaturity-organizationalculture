@@ -40,4 +40,4 @@ A Acatech destaca a importância da transformação digital ser uma "jornada" e 
 
 A maturidade da cultura organizacional é fundamental para o sucesso da transformação digital. Focar apenas em investimentos em tecnologias e ferramentas não resultará em uma evolução orgânica; é necessária uma mudança na mentalidade das pessoas e na cultura das organizações. 
 
- Antes de gastar esforço no planejamento estratégico, é importante uma atenção especial à cultura organizacional. *Peter Drucker* disse: "A cultura come a estratégia no café da manhã". Esse pensamento deixa claro a importância de uma cultura estar alinhada com o direcionamento estratégico da organização.
+ Antes de gastar esforço no planejamento estratégico, é importante uma atenção especial à cultura organizacional. ***Peter Drucker* disse: "A cultura come a estratégia no café da manhã"***. Esse pensamento deixa claro a importância de uma cultura estar alinhada com o direcionamento estratégico da organização.
