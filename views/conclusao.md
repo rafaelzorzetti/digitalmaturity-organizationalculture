@@ -7,7 +7,7 @@ O trabalho foi importante para aprendermos sobre cultura organizacional e transf
 A seguir, destacamos os níveis de maturidade obtidos por cada empresa avaliada:
 
 - **Google**: 6 (Inovação Integral)  ***Benchmark***
-  O Google representa o exemplo máximo de maturidade organizacional, evidenciando excelência em inovação e integração de processos digitais.
+O Google representa o exemplo máximo de maturidade organizacional, evidenciando excelência em inovação e integração de processos digitais.
 
 - **Promon Engenharia**: 4 (Experimentação e Aprendizado)  
   A Promon Engenharia está em um estágio avançado, mas ainda pode explorar maiores oportunidades de aprendizado e adaptação digital.
