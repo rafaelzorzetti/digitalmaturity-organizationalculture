@@ -1,12 +1,12 @@
-# Conclusão do Estudo de Maturidade da Cultura Organizacional
+O trabalho foi importante para aprendermos sobre cultura organizacional e transformação digital, pesquisando e entendendo a importância de se ter uma cultura preparada para receber a transformação digital. A criação de uma avaliação de maturidade é importante para as organizações  terem conhecimento do seu estado atual e pontos fracos a serem trabalhados. 
 
-A avaliação de maturidade da cultura organizacional para transformação digital apresentou resultados significativos, permitindo identificar o nível de preparação de diferentes empresas para enfrentar os desafios impostos pela digitalização. A análise foi baseada em seis níveis de maturidade: Resistência Inicial (1), Adaptação Cautelosa (2), Colaboração Emergente (3), Experimentação e Aprendizado (4), Transparência e Autonomia (5), e Inovação Integral (6).
+ A análise foi baseada em seis níveis de maturidade: Resistência Inicial (1), Adaptação Cautelosa (2), Colaboração Emergente (3), Experimentação e Aprendizado (4), Transparência e Autonomia (5), e Inovação Integral (6).
 
 ## Análise dos Resultados
 
 A seguir, destacamos os níveis de maturidade obtidos por cada empresa avaliada:
 
-- **Google**: 6 (Inovação Integral)  
+- **Google**: 6 (Inovação Integral)  ***Benchmark***
   O Google representa o exemplo máximo de maturidade organizacional, evidenciando excelência em inovação e integração de processos digitais.
 
 - **Promon Engenharia**: 4 (Experimentação e Aprendizado)  
