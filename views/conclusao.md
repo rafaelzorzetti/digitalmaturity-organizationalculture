@@ -36,10 +36,6 @@ O Google representa o exemplo máximo de maturidade organizacional, evidenciando
 - **PHM Contabilidade e Consultoria**: 6 (Inovação Integral)  
   A PHM também demonstra uma maturidade digital exemplar, destacando-se pelo uso pleno de tecnologias e práticas colaborativas.
 
-## Considerações Finais
+Organizações que se encontram em estágios iniciais podem focar em ações que promovam mudanças culturais e tecnológicas de maneira progressiva. Organizações em níveis avançados podem reforçar suas forças, explorando novas fontes de inovação.
 
-Os resultados mostram uma ampla diversidade nos níveis de maturidade entre as empresas analisadas. Enquanto algumas, como Google, BDO e PHM, já operam em um nível de **Inovação Integral**, outras, como Contec e União Missionária, ainda enfrentam desafios significativos na **Adaptação Cautelosa**.
-
-A partir desta análise, é possível traçar planos de melhoria personalizados para cada organização, alinhando esforços às suas necessidades específicas. Empresas que se encontram em estágios iniciais podem focar em ações que promovam mudanças culturais e tecnológicas de maneira progressiva. Já aquelas em níveis avançados podem reforçar sua posição no mercado, explorando novas fronteiras de inovação.
-
-Este estudo reforça a importância de uma cultura organizacional adaptável e aberta, como elemento-chave para o sucesso na era da transformação digital.
+Como próximos passos destaca-se o refinamento do questionário, por meio de contribuições de usuários. Após o refinamento sugere-se a publicação do trabalho formalmente e escalar a utilização, contribuindo para a evolução das organizações.
